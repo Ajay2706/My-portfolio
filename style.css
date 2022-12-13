@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Noto-Sans-Mono-Regular';
+    src:url('webfonts_Noto-Sans-Mono-Regular/Noto-Sans-Mono-Regular.ttf.woff') format('woff'),
+        url('webfonts_Noto-Sans-Mono-Regular/Noto-Sans-Mono-Regular.ttf.svg#Noto-Sans-Mono-Regular') format('svg'),
+        url('webfonts_Noto-Sans-Mono-Regular/Noto-Sans-Mono-Regular.ttf.eot'),
+        url('webfonts_Noto-Sans-Mono-Regular/Noto-Sans-Mono-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face{
+    font-family: 'Sailec-Font';
+    src: url('Sailec-Font/Sailec Bold/Sailec Bold.ttf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #0A1930;
+}
+.container{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height:120px ;
+    opacity: 100%
+    
+}
+.icon{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 3em;
+    width: 100%;
+
+}
+.tran{
+    transition: all .8s;
+
+}
+.invert{
+    position: relative;
+    top: -10px;
+
+}
+.python:hover{
+    position: relative;
+    top: -30px;    
+}
+.js:hover{
+    position: relative;
+    top: -30px;
+}
+.css:hover{
+    position: relative;
+    top: -30px;
+}
+.django:hover{
+    position: relative;
+    top: -30px;
+}
+.bootstrap:hover{
+    position: relative;
+    top: -30px;
+}
+.java:hover{
+    position: relative;
+    top: 53px;
+}
+.html:hover{
+    position: relative;
+    top: 53px;
+}
+.sql:hover{
+    position: relative;
+    top: 53px;
+}
+.mongodb:hover{
+    position: relative;
+    top: 53px;
+}
+.zigzag{
+    position: relative;
+    top: 30px;
+}
+.django{
+    filter: brightness(200%);
+}
+.java{
+    filter: brightness(120%);
+}
+.intro{
+    color: #72F6DC;
+    font-family: 'Noto-Sans-Mono-Regular';
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.name{
+    color: #CBD6F6;
+    font-family: 'sailec-font';
+    position: relative;
+    left: 100px;
+    top: 60px;
+    font-size: 50px;
+    transition: all 1s ease;
+}
+.sub{
+    color: #8891B0;
+    font-family: 'sailec-font';
+    position: relative;
+    left: 100px;
+    top: 10px;
+    font-size: 40px;
+}
+.info{
+    color:#72F6DC;
+    opacity: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    top: -15px;
+}
+.cont{
+    width: 100;
+    display: inline-block;
+}
+.contact{
+    position: relative;
+    top: 65px;
+    height: 30px;
+    width: 400px;
+    left: 1100px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact p{
+    color:#8891B0 ;
+    position: relative;
+    top: -10px;
+    font-family:'sailec-font' ;
+}
+.contact i{
+    opacity: 70%;
+}
+.fa-linkedin:hover{
+    font-size: 2.5em;
+    transition: 0.2s ease-out;
+    
+}
+.fa-github:hover{
+    font-size: 2.5em;
+    transition: 0.2s ease-out;
+}
+.fa-facebook:hover{
+     font-size: 2.5em;
+    transition: 0.2s ease-out;
+}
+.fa-whatsapp:hover{
+     font-size: 2.5em;
+    transition: 0.2s ease-out;
+}
+.fa-instagram:hover{
+    font-size: 2.5em;
+    transition: 0.2s ease-out;
+}
+.fa-file:hover{
+    font-size: 2.5em;
+    transition: 0.2s ease-out; 
+}
+.name:hover{
+    font-size: 5em;
+    transition: 1s ease-out;
+}
